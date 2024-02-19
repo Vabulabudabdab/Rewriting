@@ -9,15 +9,15 @@
     <link  href="./uploads/boosty.png">
     <title>Boosty</title>
 </head>
-<body onclick="hiddenMenu()">
+<body onclick="">
 <header class="header">
     <div class="topMenu">
         <img src="./uploads/boosty.png" class="logo">
         <div class="buttons">
-            <div class="languageChooser" id="languageChooser" onclick="showMenu(), rotate()">
-                <img src="./uploads/globus.png"> EN <img src="./uploads/strla-1.png" id="lngBtn">
+            <div class="languageChooser" id="languageChooser" onclick="showMenu();">
+                <img src="./uploads/globus.png"> EN <img src="./uploads/strla-1.png" id="lngBtn" style="width: 30px;">
             </div>
-            <div class="hiddenMenu" id="dropdownMenu">
+            <div class="hiddenMenu" id="dropdownMenu" onclick="">
                 <div class="en">
                     <div class="languages"><img src="./uploads/brt-flag.png" style="width: 20px; height: 10px; margin-bottom: 3px;">    EN</div>
                 </div>
@@ -34,5 +34,6 @@
         </div>
 </header>
 <script src="../resources/js/eventscript.js"></script>
+
 </body>
 </html>
