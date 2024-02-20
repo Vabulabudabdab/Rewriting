@@ -11,6 +11,7 @@ class Controller extends BaseController
     use AuthorizesRequests, ValidatesRequests;
 
     function welcome() {
+        $test = UserController::selectAll('users');
         return view('welcome');
     }
 }
